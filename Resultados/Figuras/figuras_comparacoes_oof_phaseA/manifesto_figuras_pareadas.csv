@@ -1,0 +1,6 @@
+figure,phase,aggregation,index_alignment
+<PROJECT_ROOT>\Resultados\TCCT_v3_2_SIBGRAPI\figuras_comparacoes_oof_phaseA\complete_tcct_vs_amplitude_only_oof_phaseA.png,strict Phase A,mean of three seeds within each spatial fold,canonical dataset_index
+<PROJECT_ROOT>\Resultados\TCCT_v3_2_SIBGRAPI\figuras_comparacoes_oof_phaseA\complete_tcct_vs_without_coattention_oof_phaseA.png,strict Phase A,mean of three seeds within each spatial fold,canonical dataset_index
+<PROJECT_ROOT>\Resultados\TCCT_v3_2_SIBGRAPI\figuras_comparacoes_oof_phaseA\complete_tcct_vs_cnn_oof_phaseA.png,strict Phase A,mean of three seeds within each spatial fold,canonical dataset_index
+<PROJECT_ROOT>\Resultados\TCCT_v3_2_SIBGRAPI\figuras_comparacoes_oof_phaseA\complete_tcct_vs_vit_oof_phaseA.png,strict Phase A,mean of three seeds within each spatial fold,canonical dataset_index
+<PROJECT_ROOT>\Resultados\TCCT_v3_2_SIBGRAPI\figuras_comparacoes_oof_phaseA\complete_tcct_vs_random_forest_oof_phaseA.png,strict Phase A,mean of three seeds within each spatial fold,canonical dataset_index
