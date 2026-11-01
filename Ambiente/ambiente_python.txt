@@ -1,0 +1,9 @@
+generated_at_utc=2026-08-03T21:09:28.355899+00:00
+script_version=1.0.1-macos
+python_executable=/Library/Frameworks/Python.framework/Versions/3.11/bin/python3
+python_version=3.11.6 (v3.11.6:8b6ee5ba3b, Oct  2 2023, 11:18:21) [Clang 13.0.0 (clang-1300.0.29.30)]
+platform=macOS-26.5.2-arm64-arm-64bit
+system=Darwin
+machine=arm64
+processor=arm
+cwd=<PROJECT_ROOT>/Codigo
