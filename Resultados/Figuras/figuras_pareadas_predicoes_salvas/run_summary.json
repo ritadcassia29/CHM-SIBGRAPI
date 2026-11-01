@@ -1,0 +1,35 @@
+{
+  "results_dir": "<LOCAL_PATH>",
+  "output_dir": "<LOCAL_PATH>",
+  "models": [
+    "complete_tcct",
+    "amplitude_only",
+    "no_coattention",
+    "cnn",
+    "vit",
+    "random_forest"
+  ],
+  "seeds": [
+    42,
+    314,
+    2026
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "figures": [
+    "<LOCAL_PATH>",
+    "<LOCAL_PATH>",
+    "<LOCAL_PATH>",
+    "<LOCAL_PATH>",
+    "<LOCAL_PATH>"
+  ],
+  "methodological_scope": "Saved selected-checkpoint predictions from the original training runs. Four neural runs selected Phase B; therefore the figures are not a strictly Phase-A-only comparison.",
+  "no_retraining": true,
+  "no_inference": true,
+  "no_fold_reconstruction": true
+}
