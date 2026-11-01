@@ -1,0 +1,31 @@
+{
+  "modelo": "tcct",
+  "ablation": "amplitude_only",
+  "total_combinacoes": 15,
+  "duracoes_s": {
+    "seed_42_fold_0": 639.8622090816498,
+    "seed_42_fold_1": 944.2107529640198,
+    "seed_42_fold_2": 1047.382516860962,
+    "seed_42_fold_3": 921.7539901733398,
+    "seed_42_fold_4": 1124.895306110382,
+    "seed_314_fold_0": 947.1888692378998,
+    "seed_314_fold_1": 895.1065258979797,
+    "seed_314_fold_2": 1101.3139171600342,
+    "seed_314_fold_3": 1030.7386388778687,
+    "seed_314_fold_4": 806.674623966217,
+    "seed_2026_fold_0": 849.747887134552,
+    "seed_2026_fold_1": 914.8451340198517,
+    "seed_2026_fold_2": 849.3003787994385,
+    "seed_2026_fold_3": 767.3565471172333,
+    "seed_2026_fold_4": 744.861175775528
+  },
+  "atualizado_em": "2026-07-30T13:16:48.982046",
+  "ultima_execucao": {
+    "seed": 314,
+    "fold": 3,
+    "duracao_s": 1030.7386388778687,
+    "concluida_em": "2026-07-30T13:16:48.942560"
+  },
+  "concluido": true,
+  "combinacoes_concluidas": 15
+}

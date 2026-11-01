@@ -1,0 +1,31 @@
+{
+  "modelo": "tcct_sem_coatencao",
+  "ablation": "completo",
+  "total_combinacoes": 15,
+  "duracoes_s": {
+    "seed_42_fold_0": 1629.1518759727478,
+    "seed_42_fold_1": 1640.0315556526184,
+    "seed_42_fold_2": 1299.6875047683716,
+    "seed_42_fold_3": 1180.934268951416,
+    "seed_42_fold_4": 1449.0913488864899,
+    "seed_314_fold_0": 1458.1683309078217,
+    "seed_314_fold_1": 1678.298879146576,
+    "seed_314_fold_2": 1779.095060825348,
+    "seed_314_fold_3": 1663.5631308555603,
+    "seed_314_fold_4": 588.664500951767,
+    "seed_2026_fold_0": 1197.8325769901276,
+    "seed_2026_fold_1": 1170.8760678768158,
+    "seed_2026_fold_2": 1217.152057170868,
+    "seed_2026_fold_3": 1311.8574590682983,
+    "seed_2026_fold_4": 1652.4814310073853
+  },
+  "atualizado_em": "2026-07-30T19:41:40.465246",
+  "ultima_execucao": {
+    "seed": 2026,
+    "fold": 4,
+    "duracao_s": 1652.4814310073853,
+    "concluida_em": "2026-07-30T19:41:40.443917"
+  },
+  "concluido": true,
+  "combinacoes_concluidas": 15
+}
