@@ -1,0 +1,2 @@
+modelo,ablation,seed,fold,fase_selecionada,patch_rmse,patch_r2,patch_bias,patch_std_pred,patch_std_true,pixel_rmse,pixel_r2,pixel_bias,pixel_std_pred,pixel_std_true
+tcct,completo,42,0,fase_B_rvog,3.7408994965167217,0.3376478821512816,0.09995986495002118,3.1759913274178007,4.5965456318319085,7.437001595263516,0.12968456946572926,0.09851252391880161,3.3477644638435287,7.971857609233607

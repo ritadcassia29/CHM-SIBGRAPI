@@ -1,0 +1,16 @@
+{
+  "modo": "complexa",
+  "sinal_kz": -1,
+  "a": 0.005000000000000002,
+  "loss": 0.012150214274958904,
+  "rmse_complexo": 0.3113729122591514,
+  "rmse_magnitude": 0.24474401804181886,
+  "n": 3926,
+  "success_opt": true,
+  "success": true,
+  "banda": "p",
+  "modo_loss": "complexa_derotada",
+  "source": "kz_Ha_real_P_atenuacao_calibrada_somente_treino",
+  "kz_magnitude_calibrada": false,
+  "validacao_usada_na_calibracao": false
+}

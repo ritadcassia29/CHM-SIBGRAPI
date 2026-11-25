@@ -1,0 +1,2 @@
+modelo,ablation,fold,patch_rmse_mean,patch_rmse_std,patch_r2_mean,patch_r2_std,patch_bias_mean,patch_bias_std,patch_std_pred_mean,patch_std_pred_std,patch_std_true_mean,patch_std_true_std,pixel_rmse_mean,pixel_rmse_std,pixel_r2_mean,pixel_r2_std,pixel_bias_mean,pixel_bias_std,pixel_std_pred_mean,pixel_std_pred_std,pixel_std_true_mean,pixel_std_true_std
+tcct,completo,0,3.7408994965167217,,0.3376478821512816,,0.09995986495002118,,3.1759913274178007,,4.5965456318319085,,7.437001595263516,,0.12968456946572926,,0.09851252391880161,,3.3477644638435287,,7.971857609233607,

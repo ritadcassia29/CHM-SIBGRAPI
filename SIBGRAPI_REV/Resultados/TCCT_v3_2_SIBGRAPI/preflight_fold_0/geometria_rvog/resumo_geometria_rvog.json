@@ -1,0 +1,132 @@
+{
+  "source": "Ha_diferencial_real_P_0506_0603",
+  "treino": 8059,
+  "validacao": 2012,
+  "banda_fisica": "P",
+  "banda_L_na_loss_fisica": false,
+  "resumo_kz": {
+    "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+    "source": "Ha_diferencial_real_P_0007_0506_0603_geocodificado_por_grille_0007",
+    "formula": "kz_0506_0603 = 2*pi/Ha_0007_0603 - 2*pi/Ha_0007_0506",
+    "referencia_geometrica_cancelada": "tropi0007",
+    "par_tcct": [
+      "tropi0506",
+      "tropi0603"
+    ],
+    "ha_0506": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0506\\tropi0007_0506_CONS_Ha.1",
+    "ha_0603": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0603\\tropi0007_0603_CONS_Ha.1",
+    "grille_referencia_ha": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0007\\tropi0007_Pcons_slc.grille",
+    "layout_ha": {
+      "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+      "shape_escolhido": [
+        7478,
+        4000
+      ],
+      "dtype": "float32",
+      "offset_bytes": 0,
+      "tamanho_esperado_bytes": 119648000,
+      "origem_shape": "INF_0007_0506_0603_e_tamanho_binario_aprovados",
+      "arquivos": [
+        {
+          "arquivo": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0506\\tropi0007_0506_CONS_Ha.1",
+          "tamanho_bytes": 119648000
+        },
+        {
+          "arquivo": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0603\\tropi0007_0603_CONS_Ha.1",
+          "tamanho_bytes": 119648000
+        }
+      ]
+    },
+    "mapa_inverso_ha": {
+      "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+      "backgeo_schema_version": 2,
+      "banda": "SAR_P",
+      "aquisicao": "tropi0007",
+      "finalidade": "ha_referencia_0007",
+      "grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0007\\tropi0007_Pcons_slc.grille",
+      "dtm_para_grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\DTM_para_grille_GRS80.tif",
+      "modo_vertical": "ngg1977_para_elipsoidal",
+      "shape_grade_saida": [
+        4384,
+        2996
+      ],
+      "shape_radar": [
+        7478,
+        4000
+      ],
+      "pixels_total": 13134464,
+      "pixels_dentro_intervalo_vertical": 12276502,
+      "pixels_geometricamente_validos": 12169110,
+      "fracao_geometricamente_valida": 0.9265022158498436,
+      "margem_borda_px": {
+        "min": 0.0028595805633813143,
+        "q25": 299.33081817626953,
+        "mediana": 613.1703186035156,
+        "q75": 1057.5631713867188,
+        "q90": 1445.1191528320312,
+        "q95": 1619.1720642089842,
+        "q99": 1806.168212890625,
+        "max": 1968.67236328125
+      },
+      "politica": "sem extrapolacao; bilinear exige quatro vizinhos dentro do raster radar",
+      "arquivos": {
+        "row": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0007_ha_referencia_0007\\row_sar_fracionaria.npy",
+        "col": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0007_ha_referencia_0007\\col_sar_fracionaria.npy",
+        "mask": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0007_ha_referencia_0007\\mascara_geometrica_valida.npy",
+        "margin": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0007_ha_referencia_0007\\margem_borda_sar_px.npy",
+        "mask_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0007_ha_referencia_0007\\mascara_geometrica_valida.tif",
+        "margin_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0007_ha_referencia_0007\\margem_borda_sar_px.tif",
+        "report": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0007_ha_referencia_0007\\relatorio_mapa_inverso.json"
+      }
+    },
+    "geometria_comum_slc": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\relatorio_geometria_sar_comum.json",
+    "saida_kz_grade_chm": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\Geometria_RVoG_Grille3D\\kz_SAR_P_0506_0603_Ha_grade_CHM_v3_2_0.npy",
+    "limites_kz_abs_rad_m": [
+      0.005,
+      0.4
+    ],
+    "contadores": {
+      "pixels_total": 13134464,
+      "fora_geometria_comum": 2760745,
+      "ha_0506_invalido": 965354,
+      "ha_0603_invalido": 965354,
+      "kz_valido": 9892733
+    },
+    "fracao_kz_valido": 0.7531889386578698,
+    "estatisticas_kz": {
+      "n": 36354,
+      "min": -0.042919267888452815,
+      "q0_1": -0.04159775863503848,
+      "q1": -0.03788694678302075,
+      "q5": -0.03353215286365446,
+      "q25": -0.02430345028425375,
+      "mediana": -0.01800449608247673,
+      "q75": -0.013713800756691222,
+      "q95": -0.009327746889358775,
+      "q99": -0.006269078141211446,
+      "q99_9": -0.0051272873206960135,
+      "max": -0.005000556863173711,
+      "media": -0.01941240240114898,
+      "desvio_padrao": 0.007433598701655157
+    },
+    "signo_a_confirmar_exclusivamente_no_treino": true
+  },
+  "calibracao_p": {
+    "modo": "complexa",
+    "sinal_kz": -1,
+    "a": 0.005000000000000002,
+    "loss": 0.012150214274958904,
+    "rmse_complexo": 0.3113729122591514,
+    "rmse_magnitude": 0.24474401804181886,
+    "n": 3926,
+    "success_opt": true,
+    "success": true,
+    "banda": "p",
+    "modo_loss": "complexa_derotada",
+    "source": "kz_Ha_real_P_atenuacao_calibrada_somente_treino",
+    "kz_magnitude_calibrada": false,
+    "validacao_usada_na_calibracao": false
+  },
+  "modo_loss_selecionado": "complexa_derotada",
+  "observacao": "kz espacial derivado de produtos Ha reais; apenas o sinal e a atenuação efetiva foram escolhidos/calibrados exclusivamente no treino."
+}

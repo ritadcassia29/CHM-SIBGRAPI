@@ -1,0 +1,20 @@
+{
+  "assinatura": {
+    "pipeline": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+    "dataset": 6,
+    "fase": "fase_B_rvog",
+    "modelo": "tcct",
+    "ablation": "completo",
+    "epocas": 30,
+    "min_epocas": 5,
+    "paciencia": 8,
+    "lr": 1e-05,
+    "lr_min": 1e-07,
+    "scheduler_paciencia": 3,
+    "seed": 10042
+  },
+  "melhor_epoca": 2,
+  "melhor_rmse_patch": 3.7408147087352073,
+  "epocas_registradas": 10,
+  "concluida_em": "2026-11-25T14:46:40.548151"
+}
