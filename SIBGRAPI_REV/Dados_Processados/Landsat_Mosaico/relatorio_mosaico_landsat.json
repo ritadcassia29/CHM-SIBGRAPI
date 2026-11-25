@@ -1,0 +1,68 @@
+{
+  "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+  "method": "quality_controlled_single_scene_per_30m_cell",
+  "target_leakage": false,
+  "selection_variables": [
+    "QA_PIXEL",
+    "spectral_NoData_and_nonfinite",
+    "QA_RADSAT_when_available",
+    "local_clear_fraction_5x5",
+    "scene_cloud_cover_MTL",
+    "temporal_distance_if_reference_configured"
+  ],
+  "important_constraint": "All six reflectance bands plus NDVI/EVI are copied from the same selected scene. Bands are never mixed across dates within one cell.",
+  "landsat_reference_date_tropisar": null,
+  "profile": {
+    "transform": [
+      30.0,
+      0.0,
+      210585.0,
+      0.0,
+      -30.0,
+      742215.0
+    ],
+    "crs": "EPSG:32622",
+    "width": 7901,
+    "height": 6941
+  },
+  "scenes": [
+    {
+      "scene_index": 0,
+      "name": "29082009",
+      "path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\Landsat-5\\Paracou\\29082009",
+      "date": "2009-08-29",
+      "cloud_cover_mtl_percent": 1.0,
+      "days_to_tropisar_reference": null,
+      "valid_spectral_cells": 38199981,
+      "valid_qa_cells": 37452901,
+      "valid_radsat_cells": 54801785,
+      "valid_cells": 37431207,
+      "valid_fraction": 0.6825425416069021,
+      "mean_local_clear_fraction": 0.996903657913208
+    },
+    {
+      "scene_index": 1,
+      "name": "14092009",
+      "path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\Landsat-5\\Paracou\\14092009",
+      "date": "2009-09-14",
+      "cloud_cover_mtl_percent": 18.0,
+      "days_to_tropisar_reference": null,
+      "valid_spectral_cells": 38146400,
+      "valid_qa_cells": 33134252,
+      "valid_radsat_cells": 53984863,
+      "valid_cells": 33133969,
+      "valid_fraction": 0.6041841882038242,
+      "mean_local_clear_fraction": 0.991850733757019
+    }
+  ],
+  "selection_counts": {
+    "0": 36915939,
+    "1": 1416661
+  },
+  "cells_total": 54840841,
+  "cells_valid_any_scene": 38332600,
+  "cells_invalid_all_scenes": 16508241,
+  "cells_recovered_relative_to_scene_0": 901393,
+  "mean_selected_local_quality": 0.9982039332389832,
+  "interpretation": "This is a multitemporal quality mosaic, not a simultaneous observation. The selected source date is stored for every sample."
+}

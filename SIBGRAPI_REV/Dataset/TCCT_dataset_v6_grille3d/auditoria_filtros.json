@@ -1,0 +1,33 @@
+{
+  "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+  "dataset_version": 6,
+  "total_pixels_landsat": 54840841,
+  "aceitos_pipeline_atual": 10500,
+  "legacy_referencia_documentada": 13247,
+  "legacy_real_contado_em_disco": null,
+  "legacy_equivalente_simulado": 2786,
+  "aceitos_atual_na_matriz_de_transicao": 10500,
+  "aceitos_apenas_legacy": 364,
+  "aceitos_apenas_atual": 8078,
+  "diferenca_liquida_simulada": -7714,
+  "diferenca_legacy_real_menos_atual": null,
+  "contadores": {
+    "total_pixels_landsat": 54840841,
+    "rejeitada_optico_nao_finito": 16508241,
+    "rejeitada_fora_chm_ou_janela_invalida": 38318819,
+    "rejeitada_chm_incompleto_ou_fora_faixa": 1354,
+    "aceita": 10500,
+    "rejeitada_chm_media_baixa": 70,
+    "rejeitada_geometria_sar_invalida": 1857
+  },
+  "transicoes": {
+    "rejeitada_em_ambos": 54829977,
+    "aceita_apenas_atual": 8078,
+    "aceita_em_ambos": 2422,
+    "aceita_apenas_legacy": 364
+  },
+  "motivos_removidos": {
+    "rejeitada_optico_nao_finito": 51,
+    "rejeitada_geometria_sar_invalida": 313
+  }
+}

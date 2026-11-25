@@ -1,0 +1,30 @@
+{
+  "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+  "raiz": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos",
+  "n_arquivos": 1081,
+  "arquivos_auxiliares_macos_ignorados": 0,
+  "bytes_totais": 82959720851,
+  "categorias": {
+    "outro": 343,
+    "geometria_interferometrica": 239,
+    "trajetoria_adaptada": 194,
+    "slc": 140,
+    "altura_ambiguidade": 38,
+    "grille": 35,
+    "landsat": 25,
+    "biomassa_in_situ": 22,
+    "lut": 20,
+    "metadado": 17,
+    "dsm": 2,
+    "dtm": 2,
+    "relatorio_tropisar": 2,
+    "resumo_in_situ": 1,
+    "roi_analysis": 1
+  },
+  "candidatos_chm_nome": 0,
+  "dsm": 2,
+  "dtm": 2,
+  "arquivos_0506_0603": 186,
+  "hash_completo_todos": false,
+  "observacao_hash": "Arquivos AppleDouble do macOS são ignorados. sha256_amostral não substitui o hash completo; arquivos críticos e arquivos abaixo do limite recebem SHA-256 completo automaticamente."
+}

@@ -1,0 +1,152 @@
+{
+  "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+  "dataset_version": 6,
+  "created_at": "2026-11-18T11:21:26.815940",
+  "n_samples": 10500,
+  "landsat_mode": "mosaico_qualidade",
+  "landsat_scenes": [
+    {
+      "scene_index": 0,
+      "name": "29082009",
+      "path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\Landsat-5\\Paracou\\29082009",
+      "date": "2009-08-29",
+      "cloud_cover_mtl_percent": 1.0,
+      "days_to_tropisar_reference": null,
+      "valid_spectral_cells": 38199981,
+      "valid_qa_cells": 37452901,
+      "valid_radsat_cells": 54801785,
+      "valid_cells": 37431207,
+      "valid_fraction": 0.6825425416069021,
+      "mean_local_clear_fraction": 0.996903657913208
+    },
+    {
+      "scene_index": 1,
+      "name": "14092009",
+      "path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\Landsat-5\\Paracou\\14092009",
+      "date": "2009-09-14",
+      "cloud_cover_mtl_percent": 18.0,
+      "days_to_tropisar_reference": null,
+      "valid_spectral_cells": 38146400,
+      "valid_qa_cells": 33134252,
+      "valid_radsat_cells": 53984863,
+      "valid_cells": 33133969,
+      "valid_fraction": 0.6041841882038242,
+      "mean_local_clear_fraction": 0.991850733757019
+    }
+  ],
+  "landsat_selection_report": {
+    "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+    "method": "quality_controlled_single_scene_per_30m_cell",
+    "target_leakage": false,
+    "selection_variables": [
+      "QA_PIXEL",
+      "spectral_NoData_and_nonfinite",
+      "QA_RADSAT_when_available",
+      "local_clear_fraction_5x5",
+      "scene_cloud_cover_MTL",
+      "temporal_distance_if_reference_configured"
+    ],
+    "important_constraint": "All six reflectance bands plus NDVI/EVI are copied from the same selected scene. Bands are never mixed across dates within one cell.",
+    "landsat_reference_date_tropisar": null,
+    "profile": {
+      "transform": [
+        30.0,
+        0.0,
+        210585.0,
+        0.0,
+        -30.0,
+        742215.0
+      ],
+      "crs": "EPSG:32622",
+      "width": 7901,
+      "height": 6941
+    },
+    "scenes": [
+      {
+        "scene_index": 0,
+        "name": "29082009",
+        "path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\Landsat-5\\Paracou\\29082009",
+        "date": "2009-08-29",
+        "cloud_cover_mtl_percent": 1.0,
+        "days_to_tropisar_reference": null,
+        "valid_spectral_cells": 38199981,
+        "valid_qa_cells": 37452901,
+        "valid_radsat_cells": 54801785,
+        "valid_cells": 37431207,
+        "valid_fraction": 0.6825425416069021,
+        "mean_local_clear_fraction": 0.996903657913208
+      },
+      {
+        "scene_index": 1,
+        "name": "14092009",
+        "path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\Landsat-5\\Paracou\\14092009",
+        "date": "2009-09-14",
+        "cloud_cover_mtl_percent": 18.0,
+        "days_to_tropisar_reference": null,
+        "valid_spectral_cells": 38146400,
+        "valid_qa_cells": 33134252,
+        "valid_radsat_cells": 53984863,
+        "valid_cells": 33133969,
+        "valid_fraction": 0.6041841882038242,
+        "mean_local_clear_fraction": 0.991850733757019
+      }
+    ],
+    "selection_counts": {
+      "0": 36915939,
+      "1": 1416661
+    },
+    "cells_total": 54840841,
+    "cells_valid_any_scene": 38332600,
+    "cells_invalid_all_scenes": 16508241,
+    "cells_recovered_relative_to_scene_0": 901393,
+    "mean_selected_local_quality": 0.9982039332389832,
+    "interpretation": "This is a multitemporal quality mosaic, not a simultaneous observation. The selected source date is stored for every sample."
+  },
+  "master": "tropi0506",
+  "slave": "tropi0603",
+  "coherence_window": 5,
+  "patch_size": 30,
+  "landsat_scaling": "SR = DN*0.0000275 - 0.2 (ou coeficientes MTL)",
+  "input_sar": "coerência complexa normalizada por polarização",
+  "sar_geometry": {
+    "schema_version": 2,
+    "patch_geometry_fraction_minimum": 1.0,
+    "mask_path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\mascara_geometrica_comum_quatro_grilles.npy",
+    "margin_path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\margem_minima_quatro_grilles_px.npy",
+    "report_path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\relatorio_geometria_sar_comum.json",
+    "policy": "intersection of four .grille inversions; no extrapolated or out-of-SLC pixel enters a canonical patch"
+  },
+  "filter_audit": {
+    "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+    "dataset_version": 6,
+    "total_pixels_landsat": 54840841,
+    "aceitos_pipeline_atual": 10500,
+    "legacy_referencia_documentada": 13247,
+    "legacy_real_contado_em_disco": null,
+    "legacy_equivalente_simulado": 2786,
+    "aceitos_atual_na_matriz_de_transicao": 10500,
+    "aceitos_apenas_legacy": 364,
+    "aceitos_apenas_atual": 8078,
+    "diferenca_liquida_simulada": -7714,
+    "diferenca_legacy_real_menos_atual": null,
+    "contadores": {
+      "total_pixels_landsat": 54840841,
+      "rejeitada_optico_nao_finito": 16508241,
+      "rejeitada_fora_chm_ou_janela_invalida": 38318819,
+      "rejeitada_chm_incompleto_ou_fora_faixa": 1354,
+      "aceita": 10500,
+      "rejeitada_chm_media_baixa": 70,
+      "rejeitada_geometria_sar_invalida": 1857
+    },
+    "transicoes": {
+      "rejeitada_em_ambos": 54829977,
+      "aceita_apenas_atual": 8078,
+      "aceita_em_ambos": 2422,
+      "aceita_apenas_legacy": 364
+    },
+    "motivos_removidos": {
+      "rejeitada_optico_nao_finito": 51,
+      "rejeitada_geometria_sar_invalida": 313
+    }
+  }
+}

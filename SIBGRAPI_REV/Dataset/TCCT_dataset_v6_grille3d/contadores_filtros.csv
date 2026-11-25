@@ -1,0 +1,9 @@
+criterio,quantidade,percentual_total
+total_pixels_landsat,54840841,100.0
+rejeitada_optico_nao_finito,16508241,30.102093073299148
+rejeitada_qa_nuvem_sombra_neve_fill,0,0.0
+rejeitada_fora_chm_ou_janela_invalida,38318819,69.8727778445265
+rejeitada_chm_incompleto_ou_fora_faixa,1354,0.0024689628665614375
+rejeitada_chm_media_baixa,70,0.00012764209797584979
+rejeitada_geometria_sar_invalida,1857,0.0033861625134450437
+aceita,10500,0.019146314696377467

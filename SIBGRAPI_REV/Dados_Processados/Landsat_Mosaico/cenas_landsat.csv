@@ -1,0 +1,3 @@
+scene_index,name,path,date,cloud_cover_mtl_percent,days_to_tropisar_reference,valid_spectral_cells,valid_qa_cells,valid_radsat_cells,valid_cells,valid_fraction,mean_local_clear_fraction
+0,29082009,C:\Users\de cassia\Documents\GitHub\CHM-SIBGRAPI\SIBGRAPI_REV\Dados_Brutos\Landsat-5\Paracou\29082009,2009-08-29,1.0,,38199981,37452901,54801785,37431207,0.6825425416069021,0.996903657913208
+1,14092009,C:\Users\de cassia\Documents\GitHub\CHM-SIBGRAPI\SIBGRAPI_REV\Dados_Brutos\Landsat-5\Paracou\14092009,2009-09-14,18.0,,38146400,33134252,53984863,33133969,0.6041841882038242,0.991850733757019

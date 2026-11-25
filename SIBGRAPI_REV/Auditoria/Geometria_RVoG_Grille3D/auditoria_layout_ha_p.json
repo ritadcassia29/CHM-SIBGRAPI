@@ -1,0 +1,27 @@
+{
+  "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+  "shape_escolhido": [
+    7478,
+    4000
+  ],
+  "dtype": "float32",
+  "offset_bytes": 0,
+  "tamanho_esperado_bytes": 119648000,
+  "origem_shape": "INF_0007_0506_0603_e_tamanho_binario_aprovados",
+  "arquivos": [
+    {
+      "arquivo": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0506\\tropi0007_0506_CONS_Ha.1",
+      "tamanho_bytes": 119648000
+    },
+    {
+      "arquivo": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0603\\tropi0007_0603_CONS_Ha.1",
+      "tamanho_bytes": 119648000
+    }
+  ],
+  "grille_referencia_ha": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0007\\tropi0007_Pcons_slc.grille",
+  "grille_row_min": 10.0,
+  "grille_row_max": 7468.0,
+  "grille_col_min": 0.0,
+  "grille_col_max": 4021.0,
+  "interpretacao": "Os dois Ha usam a grade radar da referência tropi0007; 0007 cancela-se na diferença de kz e não entra como modalidade do TCCT."
+}

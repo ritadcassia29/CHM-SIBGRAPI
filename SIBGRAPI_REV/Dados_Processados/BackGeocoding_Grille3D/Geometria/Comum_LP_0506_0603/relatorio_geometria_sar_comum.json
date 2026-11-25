@@ -1,0 +1,202 @@
+{
+  "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+  "backgeo_schema_version": 2,
+  "par": [
+    "tropi0506",
+    "tropi0603"
+  ],
+  "bandas": [
+    "SAR_L",
+    "SAR_P"
+  ],
+  "pixels_total": 13134464,
+  "pixels_validos_comuns": 10373719,
+  "fracao_valida_comum": 0.7898090854716264,
+  "margem_minima_px": {
+    "min": 0.003865334438160062,
+    "q25": 318.7606964111328,
+    "mediana": 579.7424926757812,
+    "q75": 846.7576599121094,
+    "q90": 1031.6611328125,
+    "q95": 1097.8142211914062,
+    "q99": 1153.5615234375,
+    "max": 1168.147705078125
+  },
+  "fontes": [
+    {
+      "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+      "backgeo_schema_version": 2,
+      "banda": "SAR_L",
+      "aquisicao": "tropi0506",
+      "finalidade": "slc",
+      "grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\L_Band\\temporal_data\\tropi0506\\tropi0506_Lcons_slc.grille",
+      "dtm_para_grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\DTM_para_grille_GRS80.tif",
+      "modo_vertical": "ngg1977_para_elipsoidal",
+      "shape_grade_saida": [
+        4384,
+        2996
+      ],
+      "shape_radar": [
+        18243,
+        2600
+      ],
+      "pixels_total": 13134464,
+      "pixels_dentro_intervalo_vertical": 12276502,
+      "pixels_geometricamente_validos": 10374980,
+      "fracao_geometricamente_valida": 0.7899050924346818,
+      "margem_borda_px": {
+        "min": 0.003865334438160062,
+        "q25": 318.6625061035156,
+        "mediana": 613.4905700683594,
+        "q75": 926.7087860107422,
+        "q90": 1142.0295532226562,
+        "q95": 1219.17333984375,
+        "q99": 1283.0951440429685,
+        "max": 1299.5
+      },
+      "politica": "sem extrapolacao; bilinear exige quatro vizinhos dentro do raster radar",
+      "arquivos": {
+        "row": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0506_slc\\row_sar_fracionaria.npy",
+        "col": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0506_slc\\col_sar_fracionaria.npy",
+        "mask": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0506_slc\\mascara_geometrica_valida.npy",
+        "margin": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0506_slc\\margem_borda_sar_px.npy",
+        "mask_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0506_slc\\mascara_geometrica_valida.tif",
+        "margin_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0506_slc\\margem_borda_sar_px.tif",
+        "report": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0506_slc\\relatorio_mapa_inverso.json"
+      }
+    },
+    {
+      "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+      "backgeo_schema_version": 2,
+      "banda": "SAR_L",
+      "aquisicao": "tropi0603",
+      "finalidade": "slc",
+      "grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\L_Band\\temporal_data\\tropi0603\\tropi0603_Lcons_slc.grille",
+      "dtm_para_grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\DTM_para_grille_GRS80.tif",
+      "modo_vertical": "ngg1977_para_elipsoidal",
+      "shape_grade_saida": [
+        4384,
+        2996
+      ],
+      "shape_radar": [
+        16361,
+        2600
+      ],
+      "pixels_total": 13134464,
+      "pixels_dentro_intervalo_vertical": 12276502,
+      "pixels_geometricamente_validos": 10374014,
+      "fracao_geometricamente_valida": 0.7898315454669487,
+      "margem_borda_px": {
+        "min": 0.0032404959201812744,
+        "q25": 318.74845123291016,
+        "mediana": 613.554443359375,
+        "q75": 926.7367858886719,
+        "q90": 1142.052001953125,
+        "q95": 1219.1842468261718,
+        "q99": 1283.0992431640625,
+        "max": 1299.4998779296875
+      },
+      "politica": "sem extrapolacao; bilinear exige quatro vizinhos dentro do raster radar",
+      "arquivos": {
+        "row": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0603_slc\\row_sar_fracionaria.npy",
+        "col": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0603_slc\\col_sar_fracionaria.npy",
+        "mask": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0603_slc\\mascara_geometrica_valida.npy",
+        "margin": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0603_slc\\margem_borda_sar_px.npy",
+        "mask_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0603_slc\\mascara_geometrica_valida.tif",
+        "margin_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0603_slc\\margem_borda_sar_px.tif",
+        "report": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\L_tropi0603_slc\\relatorio_mapa_inverso.json"
+      }
+    },
+    {
+      "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+      "backgeo_schema_version": 2,
+      "banda": "SAR_P",
+      "aquisicao": "tropi0506",
+      "finalidade": "slc",
+      "grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0506\\tropi0506_Pcons_slc.grille",
+      "dtm_para_grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\DTM_para_grille_GRS80.tif",
+      "modo_vertical": "ngg1977_para_elipsoidal",
+      "shape_grade_saida": [
+        4384,
+        2996
+      ],
+      "shape_radar": [
+        10734,
+        4000
+      ],
+      "pixels_total": 13134464,
+      "pixels_dentro_intervalo_vertical": 12276502,
+      "pixels_geometricamente_validos": 12170549,
+      "fracao_geometricamente_valida": 0.9266117749456696,
+      "margem_borda_px": {
+        "min": 0.0015132311964407563,
+        "q25": 299.2398986816406,
+        "mediana": 613.1090698242188,
+        "q75": 1057.5218505859375,
+        "q90": 1445.0835205078126,
+        "q95": 1619.1689208984371,
+        "q99": 1806.150532226562,
+        "max": 1968.6981201171875
+      },
+      "politica": "sem extrapolacao; bilinear exige quatro vizinhos dentro do raster radar",
+      "arquivos": {
+        "row": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0506_slc\\row_sar_fracionaria.npy",
+        "col": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0506_slc\\col_sar_fracionaria.npy",
+        "mask": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0506_slc\\mascara_geometrica_valida.npy",
+        "margin": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0506_slc\\margem_borda_sar_px.npy",
+        "mask_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0506_slc\\mascara_geometrica_valida.tif",
+        "margin_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0506_slc\\margem_borda_sar_px.tif",
+        "report": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0506_slc\\relatorio_mapa_inverso.json"
+      }
+    },
+    {
+      "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+      "backgeo_schema_version": 2,
+      "banda": "SAR_P",
+      "aquisicao": "tropi0603",
+      "finalidade": "slc",
+      "grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\P_Band\\temporal_data\\tropi0603\\tropi0603_Pcons_slc.grille",
+      "dtm_para_grille": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\DTM_para_grille_GRS80.tif",
+      "modo_vertical": "ngg1977_para_elipsoidal",
+      "shape_grade_saida": [
+        4384,
+        2996
+      ],
+      "shape_radar": [
+        9601,
+        4000
+      ],
+      "pixels_total": 13134464,
+      "pixels_dentro_intervalo_vertical": 12276502,
+      "pixels_geometricamente_validos": 12169915,
+      "fracao_geometricamente_valida": 0.9265635049896211,
+      "margem_borda_px": {
+        "min": 0.001091483747586608,
+        "q25": 299.2645263671875,
+        "mediana": 613.1572265625,
+        "q75": 1057.532470703125,
+        "q90": 1445.093212890625,
+        "q95": 1619.1559814453117,
+        "q99": 1806.1583081054687,
+        "max": 1968.6876220703125
+      },
+      "politica": "sem extrapolacao; bilinear exige quatro vizinhos dentro do raster radar",
+      "arquivos": {
+        "row": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0603_slc\\row_sar_fracionaria.npy",
+        "col": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0603_slc\\col_sar_fracionaria.npy",
+        "mask": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0603_slc\\mascara_geometrica_valida.npy",
+        "margin": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0603_slc\\margem_borda_sar_px.npy",
+        "mask_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0603_slc\\mascara_geometrica_valida.tif",
+        "margin_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0603_slc\\margem_borda_sar_px.tif",
+        "report": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\P_tropi0603_slc\\relatorio_mapa_inverso.json"
+      }
+    }
+  ],
+  "policy": "pixel válido somente se a inversão .grille e os quatro vizinhos de interpolação estiverem dentro dos quatro SLCs",
+  "arquivos": {
+    "mask_path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\mascara_geometrica_comum_quatro_grilles.npy",
+    "margin_path": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\margem_minima_quatro_grilles_px.npy",
+    "mask_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\mascara_geometrica_comum_quatro_grilles.tif",
+    "margin_tif": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\BackGeocoding_Grille3D\\Geometria\\Comum_LP_0506_0603\\margem_minima_quatro_grilles_px.tif"
+  }
+}

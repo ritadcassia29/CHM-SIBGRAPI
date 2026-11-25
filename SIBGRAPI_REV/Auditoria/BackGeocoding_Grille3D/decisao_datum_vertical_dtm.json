@@ -1,0 +1,33 @@
+{
+  "pipeline_version": "3.2.1-SIBGRAPI-REV-GRILLE3D-RETOMAVEL",
+  "roi": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Brutos\\TropiSAR_SAR_Data\\Paracou\\L_Band\\temporal_data\\tropi0506\\ROI_Paracou_tropi0506_Lcons.txt",
+  "dtm_alinhado": "C:\\Users\\de cassia\\Documents\\GitHub\\CHM-SIBGRAPI\\SIBGRAPI_REV\\Dados_Processados\\LiDAR_CHM\\DTM_alinhado_a_grade_DSM.tif",
+  "grade_geoidal": "C:\\Users\\de cassia\\AppData\\Local\\proj\\fr_ign_ggguy15.tif",
+  "transformacao_vertical": "axis order change (2D) + Inverse of RGFG95 to NGG1977 height (1) + axis order change (2D)",
+  "modo_configurado": "auto_roi",
+  "modo_escolhido": "ngg1977_para_elipsoidal",
+  "origem_decisao": "controle_externo_roi",
+  "n_pontos_validos": 2624,
+  "separacao_convertido_menos_direto": {
+    "min_m": -34.33333750790996,
+    "mediana_m": -34.30211536000483,
+    "max_m": -34.281623384425174,
+    "mediana_abs_m": 34.30211536000483
+  },
+  "candidatos": {
+    "direto": {
+      "n": 2624,
+      "bias_m": 34.258731243052004,
+      "rmse_m": 34.2587353738197,
+      "mediana_abs_m": 34.25857822595418,
+      "p95_abs_m": 34.282768244689485
+    },
+    "ngg1977_para_elipsoidal": {
+      "n": 2624,
+      "bias_m": -0.04589204050059238,
+      "rmse_m": 0.04809807270586794,
+      "mediana_abs_m": 0.046123202959734044,
+      "p95_abs_m": 0.06605271569242466
+    }
+  }
+}
